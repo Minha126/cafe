@@ -16,8 +16,8 @@ public class Control {
 		
 		ArrayList<String> alMenu = new ArrayList<String>(); // 주문 메뉴
 		ArrayList<Integer> alCount = new ArrayList<Integer>(); // 주문 수량
-		ArrayList<Integer> alSum = new ArrayList<Integer>(); // 
-		ArrayList<String> alMobile = new ArrayList<String>();
+		ArrayList<Integer> alSum = new ArrayList<Integer>(); // 주문별 합계 금액
+		ArrayList<String> alMobile = new ArrayList<String>(); // 적립번호
 		
 		while (true) {
 			System.out.println("================\t<시스템관리>\t================");
@@ -384,10 +384,12 @@ public class Control {
 	// 매출관리-매출보기 메소드
 	public static void showSales(ArrayList<String> alName, ArrayList<Integer> alPrice, 
 			   					 ArrayList<String> alMenu, ArrayList<Integer> alCount, ArrayList<Integer> alSum, ArrayList<String> alMobile) {
-		System.out.println("주문메뉴\t수량\t금액\t적립번호");
-		for (int i = 0; i < alMenu.size(); i++) {
-			System.out.println(alMenu.get(i)+"\t"+alCount.get(i)+"\t"+alSum.get(i)+"\t"+alMobile.get(i));
-		}
+//		System.out.println("주문메뉴\t수량\t금액\t적립번호");
+//		for (int i = 0; i < alMenu.size(); i++) {
+//			System.out.println(alMenu.get(i)+"\t"+alCount.get(i)+"\t"+alSum.get(i)+"\t"+alMobile.get(i));
+//		}
+		
+		
 		
 		
 	}
